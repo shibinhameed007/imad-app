@@ -26,7 +26,7 @@ app.get('/article-two', function (req, res) {
 });
 
 app.get('/article-three', function (req, res) {
-  res.send('article three req and will be served here');
+  res.send('article three 3 req and will be served here');
 });
 
 
