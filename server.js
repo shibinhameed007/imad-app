@@ -57,7 +57,7 @@ var htmlTemplate=`
             ${heading}
         </h2>
         <div>
-            ${date}
+          
         </div>
         <div>
             ${content}               
