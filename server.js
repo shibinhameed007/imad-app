@@ -29,7 +29,8 @@ var articles= {
     
     
 },
- 'article-two':{    title : 'Article-two | Shibin',
+ 'article-two':{    
+    title : 'Article-two | Shibin',
     date  : 'Oct 9th 2017',
     heading : 'Article-One',
     content : 
@@ -96,7 +97,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/:articleName', function (req, res) {
-    var articleName= req.param.articleName;
+    var articleName= req.params.articleName;
   res.send(createTemplate(articles[articleName]));
 });
 
